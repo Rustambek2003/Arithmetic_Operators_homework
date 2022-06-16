@@ -7,3 +7,9 @@
 #Print the answer.
  
 #Print the number.
+
+number = 160
+number /= 2
+answer = number % 2
+print(answer)
+print(number)
