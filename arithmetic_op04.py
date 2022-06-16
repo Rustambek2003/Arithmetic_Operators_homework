@@ -9,3 +9,19 @@
 #Create a variable called 'answer' and assign it the sum of the three digits.
 
 #print the sum of the three digits.
+number = 158
+answer = 0
+
+x3 = number % 10
+number //= 10
+answer += x3
+
+x2 = number % 10
+number //= 10
+answer += x2
+
+x1 = number % 10
+number //= 10
+answer += x1
+
+print(answer)
